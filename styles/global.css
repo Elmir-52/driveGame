@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* background-image: url(https://s3.stroi-news.ru/img/oboi-gorod-nochyu-dizain-krasivo-19.jpg); */
+    background: gainsboro;
+    background-size: cover;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header {
+    height: 87px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPnc_vOxvSToqaVzWGXV7p0FJo2ala_zA1eA&s); */
+    background: white;
+    background-repeat: repeat-x;
+}
+
+.main {
+    position: relative;
+}
+
+.main__section {
+    height: 650px;
+    width: 300px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
